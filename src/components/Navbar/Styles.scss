@@ -1,0 +1,26 @@
+
+.navbar_container{
+background-color: #7b1c2a;
+margin-bottom: 20;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 6px;
+padding-bottom: 6px;
+
+.navbar_logo{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.navbar_icons{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1rem
+}
+
+}
