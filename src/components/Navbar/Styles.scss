@@ -1,6 +1,5 @@
 
 .navbar_container{
-background-color: #7b1c2a;
 margin-bottom: 20;
 display: flex;
 align-items: center;
@@ -12,7 +11,13 @@ padding-bottom: 6px;
     display: flex;
     align-items: center;
     flex-shrink: 0;
+   img{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        width: 2.5rem;
+    }
 }
+
 
 .navbar_icons{
     margin: 2rem;

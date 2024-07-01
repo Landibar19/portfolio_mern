@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className='navbar_container'>
         <div className='navbar_logo'>
-            <img src={logo} alt='logo'/>
+            <img className='img_logo' src={logo} alt='logo'/>
         </div>
         <div className='navbar_icons'>
             <FaLinkedin />
