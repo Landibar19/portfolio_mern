@@ -1,0 +1,32 @@
+
+.technologies_container{
+    border: 1px solid #2d3748;
+    padding-bottom: 4rem;
+    h1{
+        margin-bottom: 4rem;
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.75rem;
+        font-weight: 400;
+    }
+
+    .technologies_content{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap:16px;
+
+        .technologies_content_icons{
+            border-radius: 16px;
+            border: 4px solid #2d3748;
+            font-size: 3.75rem;
+            color: #22d3ee;
+            padding: 1rem;
+
+
+
+        }
+    }
+
+}

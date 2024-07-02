@@ -53,18 +53,21 @@
         }
 
       }
-
+      img{
+        max-width: 100%;
+        height: auto;
+      }
       .hero_item_image{
         width:100%;
         @media (min-width: 1024px) {
           width: 50%;
-          
         }
 
         .hero_item_image_container{
           display: flex;
           justify-content: center;
         }
+       
       }
     }
 

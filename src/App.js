@@ -1,8 +1,10 @@
 
 import './App.scss';
 import About from './components/About/Presentational';
+import Experiences from './components/Experiences/Presentational';
 import Hero from './components/Hero/Presentational';
 import Navbar from './components/Navbar/Presentational';
+import Technologies from './components/Technologies/Presentational';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Navbar />
         <Hero />
         <About />
+        <Technologies/>
+        <Experiences />
       </div>
       
     </div>

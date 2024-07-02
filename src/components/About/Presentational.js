@@ -17,10 +17,10 @@ const About = () => {
             </div>
         </div>
         <div className='about_content_text'>
-        <div className='about_content_text_item'>
-            <p> {ABOUT_TEXT}</p>
-        </div>
-    </div>
+            <div className='about_content_text_item'>
+                <p> {ABOUT_TEXT}</p>
+            </div>
+         </div>
     </div>
     </div>
   )
